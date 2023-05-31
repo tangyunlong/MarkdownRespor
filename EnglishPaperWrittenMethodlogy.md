@@ -68,7 +68,7 @@ Specific:
 
 ==The introduction expands upon the abstract==
 
-introduction = 
+introduction =
 background(related knownledge && Complementary chanllenge)
 +
 Existing methods(Summary && Classification)
@@ -89,3 +89,55 @@ Contributions
 ![academic](asset/academic9.png)
 
 #### Related Work
+
++ include all theme about your paper.
++ include all work about your revelant problem.
+
+***BUT*** not put on **all paper you read** and **do not enumerate paper**.
+
+==Draw out your contribution== in relation to the work of previous generations.
+
+> eg.
+> technologe one can be used in some field.
+> paper one , paper two, paper three.
+> however it still has some problem not solved. In this paper, we decipt the problem and give a new method to solve it.
+
+#### Method
+
+requirements
+
+1) Focus on your contribution to the solution, from reader's perspective rather than your own(Time of input).
+2) Enhance the description of motivation (why do you do this).
+3) Highlight the your contribution in resolving the problem.
+
+![academic](asset/academic10.png)
+
+framework
+
++ first : framework figure
+eg.![academic](asset/academic11.png)
++ second : framework description ==(Consistent graphics and text)==
+
+  1) Overall design idea.
+  2) subtitle: ***precise*** and ***breif***.
+  3) content :***motivation***, method, ***result***.
+  4) details : Specific process.
+
+#### Experiment
+
+requirements
+
+1) Alignment of ***theory, methodology and motivation***.
+2) provide important results not the best case.
+3) analysis of the results (resonable and objective).
+4) The limitations of the method capabilities.
+![academic](asset/academic12.png)
+
+#### Conclusion
+
+1) What is your discovery?
+2) What kind of conclusion can be drawn from the problem you solved?
+3) Future work.
+
+Time line
+![academic](asset/academic13.png.
