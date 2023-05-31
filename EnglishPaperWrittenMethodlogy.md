@@ -140,4 +140,4 @@ requirements
 3) Future work.
 
 Time line
-![academic](asset/academic13.png.
+![academic](asset/academic13.png)
