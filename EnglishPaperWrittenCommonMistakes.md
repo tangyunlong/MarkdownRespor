@@ -101,7 +101,7 @@
   + ***etc.*** means ‘and so on’ and is used at the end of a list to show it is not complete.
   + ***such as*** means ‘for example’ and implies that an incomplete list will follow
 
-  [^_^]: $\underline{Such as}$
+  #[^_^]: $\underline{Such as}$
 
   + ***Such as*** means that an **incomplete list** will be given and should **not** be used when a **complete list** is given.
   + Examples
