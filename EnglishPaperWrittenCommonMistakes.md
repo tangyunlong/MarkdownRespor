@@ -25,12 +25,12 @@
     + 3) used wrongly in place of the correct article.
 
 + Examples
-![mistakes](asset/mistake1.png)
-![mistakes](asset/mistake2.png)
-![mistakes](asset/mistake3.png)
+![mistakes](asset/mistake/mistake1.png)
+![mistakes](asset/mistake/mistake2.png)
+![mistakes](asset/mistake/mistake3.png)
 
 + Correct usage of articles
-![usage_articles](asset/usage.png)
+![usage_articles](asset/mistake/usage.png)
   + Nonspecific noun :
     + A noun that refers to any of a number of identical items; it takes the indefinite articles a , an.
   + Specific noun :
@@ -42,27 +42,27 @@
 + Long sentences can be avoided by limiting each sentence to one or two topics.
 
   + Examples
-  1)![wrong](asset/wrongSentence1.png)![mistakes](asset/correctSentence.png)
+  1)![wrong](asset/mistake/wrongSentence1.png)![mistakes](asset/mistake/correctSentence.png)
   + of a list
-  2)![mistakes](asset/listSentence.png)
-  ![mistakes](asset/listSentence2.png)
+  2)![mistakes](asset/mistake/listSentence.png)
+  ![mistakes](asset/mistake/listSentence2.png)
 
 #### Bring the main diea to the back
 
 + this has the effect of demoting the importance of the main idea and making the reader think the author is indirect.
 
 + Examples
-  + ![wrong](asset/mainIdeaFount.png)![mistakes](asset/mainIdeaFront.png)
+  + ![wrong](asset/mistake/mainIdeaFount.png)![mistakes](asset/mistake/mainIdeaFront.png)
 
 #### Tendency of placing phrases at the begin a sentence
 
 + The modification of a sentence should be placed behind the main idea of the sentence.
 + Examples
-![modification](asset/modification.png)
+![modification](asset/mistake/modification.png)
 
 + Place the most important subject at the beginning of the sentence for emphasis
 
-![important](asset/importantPlaceBegin.png)
+![important](asset/mistake/importantPlaceBegin.png)
 
 #### 'which/ that' && 'Respectively' and 'respective' && 'In this paper' and 'in this study' && Numbers and Equations && 'such as' and 'etc.'
 
@@ -73,11 +73,11 @@
 + 'Respectively' and 'respective'
   + Respectively: refers back to two or more persons or things **only in the order** they were previously designated or mentioned.
   + mistake 1 :misplaced
-![respectively](asset/respectively1.png)
+![respectively](asset/mistake/respectively1.png)
   + mistake 2 :redundancy
-![respectively](asset/respectively2.png)
+![respectively](asset/mistake/respectively2.png)
   + mistake 3 :ambiguous
-![respectively](asset/respectively3.png)
+![respectively](asset/mistake/respectively3.png)
 
 + 'In this paper' and 'in this study'
   + mistake 1 :abuse
@@ -87,26 +87,24 @@
   + mistake 2 :interchanged
     + in this paper -> The paper is the mode to present this work and is what the reader is holding/ reading
     + in the study -> The study is  the work the author/s did
-![inThisPaper](asset/inThisPaper.png)
+![inThisPaper](asset/mistake/inThisPaper.png)
 
 + Numbers and Equations
   + Arabic numerals should never be used at the beginning of sentences.
-![arabic](asset/arabic.png)
+![arabic](asset/mistake/arabic.png)
   + Arabic numerals should be used to give data in technical papers
-![arabic](asset/arabic2.png)
+![arabic](asset/mistake/arabic2.png)
   + Equations should be introduced as much as possible, not inserted in place of words.
-![arabic](asset/arabic3.png)
+![arabic](asset/mistake/arabic3.png)
 
 + 'such as' and 'etc.'
   + ***etc.*** means ‘and so on’ and is used at the end of a list to show it is not complete.
   + ***such as*** means ‘for example’ and implies that an incomplete list will follow
 
-  #[^_^]: $\underline{Such as}$
-
   + ***Such as*** means that an **incomplete list** will be given and should **not** be used when a **complete list** is given.
   + Examples
-  ![suchas](asset/suchas.png)
-  ![suchas](asset/suchas2.png)
+  ![suchas](asset/mistake/suchas.png)
+  ![suchas](asset/mistake/suchas2.png)
   
 ### section 2: small nuances
 
@@ -117,17 +115,17 @@
    + faculty
 
 2) ==Avoid redundancy==
-![redundancy](asset/avoidRedundancy.png)
+![redundancy](asset/mistake/avoidRedundancy.png)
 
 3) some words modify is plural
-![plural](asset/modifyPlural.png)
+![plural](asset/mistake/modifyPlural.png)
 
 4) Never begin an English sentence with abbreviations and Arabic numerals
 
 5) Do not write  ***‘by this way’*** . Instead write  ***‘by doing this’*** , or ***‘using this method***
 
 6) Never write ***‘How to...’*** at the beginning of a sentence. (Don’t say it ither.)
-   ![howto](asset/HowTO.png)
+   ![howto](asset/mistake/HowTO.png)
 
 7) Do write ‘the results are ***shown in*** Figure 2’. Do not write ‘the results are ***showed as*** Figure 2’.
 
@@ -136,7 +134,7 @@
    + Write ‘The graph shows *t*, *a*, and *C* as a function of time’. Do not write ‘The graph shows t, a, and C as a function of time’.
 
 9) NO ***Obviously***
-![noObviously](asset/NOobviously.png)
+![noObviously](asset/mistake/NOobviously.png)
 
 10) International papers should ==not== use location dependant terms such as ***‘at home’, ‘abroad’, ‘here’,*** ***‘our country’*** because the reader most likely is not Chinese and not in China. Instead, write ***‘in China’.***
 

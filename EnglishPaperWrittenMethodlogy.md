@@ -15,7 +15,7 @@ Catalogue
 5. Daily accumulation
 6. Tips
 
-![academic](asset/academic2.png)
+![academic](asset/academic/academic2.png)
 
 ---
 
@@ -27,7 +27,7 @@ Catalogue
 + quality ：logic, express, mindset
 + Long Term : share, communication, cooperation, competition
 
-![academic](asset/academic.png)
+![academic](asset/academic/academic.png)
 
 + depict the problem
 
@@ -38,11 +38,11 @@ Catalogue
 + inferior paper
   + problem : Chasing field ***hotspots*** and solving ***surface*** problems
   + method  : ***Blind Method*** and ***Model splicing***
-![academic](asset/academic3.png)
+![academic](asset/academic/academic3.png)
 
   ==***Question-guided approach***==
 
-![academic](asset/academic4.png)
+![academic](asset/academic/academic4.png)
 
 #### Title
 
@@ -51,18 +51,18 @@ Catalogue
 2) Easy to remember and spread
 
 + BAD Example:
-![academic](asset/academic5.png)
+![academic](asset/academic/academic5.png)
 
 + GOOD Example:
-![academic](asset/academic6.png)
-![academic](asset/academic7.png)
+![academic](asset/academic/academic6.png)
+![academic](asset/academic/academic7.png)
 
 #### Abstract
 
 1) Structure: challenge, problem, ideas, highlights, advantages.
 
 Specific:
-![academic](asset/academic8.png)
+![academic](asset/academic/academic8.png)
 
 #### introduction
 
@@ -86,7 +86,7 @@ Contributions
 + is SOTA?
 + new capability?
 
-![academic](asset/academic9.png)
+![academic](asset/academic/academic9.png)
 
 #### Related Work
 
@@ -110,12 +110,12 @@ requirements
 2) Enhance the description of motivation (why do you do this).
 3) Highlight the your contribution in resolving the problem.
 
-![academic](asset/academic10.png)
+![academic](asset/academic/academic10.png)
 
 framework
 
 + first : framework figure
-eg.![academic](asset/academic11.png)
+eg.![academic](asset/academic/academic11.png)
 + second : framework description ==(Consistent graphics and text)==
 
   1) Overall design idea.
@@ -131,7 +131,7 @@ requirements
 2) provide important results not the best case.
 3) analysis of the results (resonable and objective).
 4) The limitations of the method capabilities.
-![academic](asset/academic12.png)
+![academic](asset/academic/academic12.png)
 
 #### Conclusion
 
@@ -140,4 +140,4 @@ requirements
 3) Future work.
 
 Time line
-![academic](asset/academic13.png)
+![academic](asset/academic/academic13.png)
