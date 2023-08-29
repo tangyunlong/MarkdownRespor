@@ -108,22 +108,22 @@
 
     1)Actor-Critic结构:
         ac算法通过**重要性采样**方法解决学习的策略和采集到数据中的策略的不一致性问题
-        ![sample](./image/sample.png)
+  ![sample](./image/sample.png)
         通过引入V-trace,限制重要性采样之前策略比值(梯度)过大问题
-        ![vtrace](./image/vtrace.png)
+  ![vtrace](./image/vtrace.png)
 
     2)UPGO算法:
     **将未来的乐观信息加入Advantage中**.
         解决优势估算的问题
         原始优势计算:
-        ![advan](./image/advan.png)
+  ![advan](./image/advan.png)
         upgo优势计算:
-        ![upgo](./image/upgo.png)
+  ![upgo](./image/upgo.png)
 
     3)TD(λ)算法:
         ***价值函数是策略上向未来考虑多少***
         解决价值函数的拟合问题
-        ![td](./image/td.png)
+  ![td](./image/td.png)
 
 AlphaStar将我方和对方的观察同时输入价值网络，同时学习对手的收益和己方的收益。
 
