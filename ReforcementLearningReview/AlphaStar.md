@@ -144,7 +144,9 @@ AlphaStar将我方和对方的观察同时输入价值网络，同时学习对�
 
 + 人类统计量Z：
   使用汉明距离统计人类和智能体的选择差距
+  
 ![Z](./image/Z.png)
+
 ![ED](./image/ED.png)
 
 每一个伪奖励函数，都有各自独立的价值网络和loss函数。
@@ -165,8 +167,10 @@ AlphaStar将我方和对方的观察同时输入价值网络，同时学习对�
 + 有优先级的虚拟自学习(Prioritized Fictitious Self-Play)
 
     1)按照胜利挑选对手（与高手对战）
+  
 ![PFSP](./image/PFSP.png)
     2)不同智能体中的权重（多智能体部分）
+    
 ![f](./image/f.png)
 
 #### 2.4.2 多智能体（联盟学习）（League Training）
