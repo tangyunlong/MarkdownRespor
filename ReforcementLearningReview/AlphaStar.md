@@ -107,17 +107,23 @@
 如何解决:
 
     1)Actor-Critic结构:
-        ac算法通过**重要性采样**方法解决学习的策略和采集到数据中的策略的不一致性问题
+  ac算法通过**重要性采样**方法解决学习的策略和采集到数据中的策略的不一致性问题
+        
   ![sample](./image/sample.png)
-        通过引入V-trace,限制重要性采样之前策略比值(梯度)过大问题
+  
+  通过引入V-trace,限制重要性采样之前策略比值(梯度)过大问题
+        
   ![vtrace](./image/vtrace.png)
 
     2)UPGO算法:
     **将未来的乐观信息加入Advantage中**.
         解决优势估算的问题
-        原始优势计算:
+  原始优势计算:
+  
   ![advan](./image/advan.png)
-        upgo优势计算:
+  
+  upgo优势计算:
+  
   ![upgo](./image/upgo.png)
 
     3)TD(λ)算法:
@@ -166,10 +172,11 @@ AlphaStar将我方和对方的观察同时输入价值网络，同时学习对�
 ==>FSP-对手太菜问题的解决方案
 + 有优先级的虚拟自学习(Prioritized Fictitious Self-Play)
 
-    1)按照胜利挑选对手（与高手对战）
+1)按照胜利挑选对手（与高手对战）
   
 ![PFSP](./image/PFSP.png)
-    2)不同智能体中的权重（多智能体部分）
+
+2)不同智能体中的权重（多智能体部分）
     
 ![f](./image/f.png)
 
