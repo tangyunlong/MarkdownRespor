@@ -108,22 +108,22 @@
 
     1)Actor-Critic结构:
         ac算法通过**重要性采样**方法解决学习的策略和采集到数据中的策略的不一致性问题
-        ![sample](image/sample.png)
+![sample](./image/sample.png)
         通过引入V-trace,限制重要性采样之前策略比值(梯度)过大问题
-        ![vtrace](image/vtrace.png)
+![vtrace](./image/vtrace.png)
 
     2)UPGO算法:
     **将未来的乐观信息加入Advantage中**.
         解决优势估算的问题
         原始优势计算:
-        ![advan](image/advan.png)
+![advan](./image/advan.png)
         upgo优势计算:
-        ![upgo](image/upgo.png)
+![upgo](./image/upgo.png)
 
     3)TD(λ)算法:
         ***价值函数是策略上向未来考虑多少***
         解决价值函数的拟合问题
-        ![td](image/td.png)
+![td](./image/td.png)
 
 AlphaStar将我方和对方的观察同时输入价值网络，同时学习对手的收益和己方的收益。
 
@@ -144,8 +144,8 @@ AlphaStar将我方和对方的观察同时输入价值网络，同时学习对�
 
 + 人类统计量Z：
   使用汉明距离统计人类和智能体的选择差距
-![Z](image/Z.png)
-![ED](image/ED.png)
+![Z](./image/Z.png)
+![ED](./image/ED.png)
 
 每一个伪奖励函数，都有各自独立的价值网络和loss函数。
 
@@ -165,9 +165,9 @@ AlphaStar将我方和对方的观察同时输入价值网络，同时学习对�
 + 有优先级的虚拟自学习(Prioritized Fictitious Self-Play)
 
     1)按照胜利挑选对手（与高手对战）
-![PFSP](image/PFSP.png)
+![PFSP](./image/PFSP.png)
     2)不同智能体中的权重（多智能体部分）
-![f](image/f.png)
+![f](./image/f.png)
 
 #### 2.4.2 多智能体（联盟学习）（League Training）
 
