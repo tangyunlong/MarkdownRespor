@@ -107,23 +107,47 @@
 如何解决:
 
     1)Actor-Critic结构:
+<<<<<<< HEAD:ReforcementLearningNews/AlphaStar.md
         ac算法通过**重要性采样**方法解决学习的策略和采集到数据中的策略的不一致性问题
 ![sample](./image/sample.png)
         通过引入V-trace,限制重要性采样之前策略比值(梯度)过大问题
 ![vtrace](./image/vtrace.png)
+=======
+  ac算法通过**重要性采样**方法解决学习的策略和采集到数据中的策略的不一致性问题
+        
+  ![sample](./image/sample.png)
+  
+  通过引入V-trace,限制重要性采样之前策略比值(梯度)过大问题
+        
+  ![vtrace](./image/vtrace.png)
+>>>>>>> 26dab6c89b27224f525030efa68d93352818aebe:ReforcementLearningReview/AlphaStar.md
 
     2)UPGO算法:
     **将未来的乐观信息加入Advantage中**.
         解决优势估算的问题
+<<<<<<< HEAD:ReforcementLearningNews/AlphaStar.md
         原始优势计算:
 ![advan](./image/advan.png)
         upgo优势计算:
 ![upgo](./image/upgo.png)
+=======
+  原始优势计算:
+  
+  ![advan](./image/advan.png)
+  
+  upgo优势计算:
+  
+  ![upgo](./image/upgo.png)
+>>>>>>> 26dab6c89b27224f525030efa68d93352818aebe:ReforcementLearningReview/AlphaStar.md
 
     3)TD(λ)算法:
         ***价值函数是策略上向未来考虑多少***
         解决价值函数的拟合问题
+<<<<<<< HEAD:ReforcementLearningNews/AlphaStar.md
 ![td](./image/td.png)
+=======
+  ![td](./image/td.png)
+>>>>>>> 26dab6c89b27224f525030efa68d93352818aebe:ReforcementLearningReview/AlphaStar.md
 
 AlphaStar将我方和对方的观察同时输入价值网络，同时学习对手的收益和己方的收益。
 
@@ -144,7 +168,13 @@ AlphaStar将我方和对方的观察同时输入价值网络，同时学习对�
 
 + 人类统计量Z：
   使用汉明距离统计人类和智能体的选择差距
+<<<<<<< HEAD:ReforcementLearningNews/AlphaStar.md
 ![Z](./image/Z.png)
+=======
+  
+![Z](./image/Z.png)
+
+>>>>>>> 26dab6c89b27224f525030efa68d93352818aebe:ReforcementLearningReview/AlphaStar.md
 ![ED](./image/ED.png)
 
 每一个伪奖励函数，都有各自独立的价值网络和loss函数。
@@ -164,9 +194,18 @@ AlphaStar将我方和对方的观察同时输入价值网络，同时学习对�
 ==>FSP-对手太菜问题的解决方案
 + 有优先级的虚拟自学习(Prioritized Fictitious Self-Play)
 
+<<<<<<< HEAD:ReforcementLearningNews/AlphaStar.md
     1)按照胜利挑选对手（与高手对战）
 ![PFSP](./image/PFSP.png)
     2)不同智能体中的权重（多智能体部分）
+=======
+1)按照胜利挑选对手（与高手对战）
+  
+![PFSP](./image/PFSP.png)
+
+2)不同智能体中的权重（多智能体部分）
+    
+>>>>>>> 26dab6c89b27224f525030efa68d93352818aebe:ReforcementLearningReview/AlphaStar.md
 ![f](./image/f.png)
 
 #### 2.4.2 多智能体（联盟学习）（League Training）
